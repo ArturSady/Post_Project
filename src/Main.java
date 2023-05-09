@@ -21,7 +21,9 @@ public class Main {
 //    paczka kosztuje 10% drożej jeśli jest priorytetowa
     public static void main(String[] args) {
 
-        Parcel parcel = new Parcel(1000);
+      //  Parcel parcel = new Parcel("", "Patryk", 0);
+      //  System.out.println(parcel);
+        Parcel parcel = new Parcel();
         System.out.println(parcel);
 
     }
